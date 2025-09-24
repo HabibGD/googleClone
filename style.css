@@ -1,0 +1,242 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 20px 20px;
+}
+
+.nav_link {
+    padding: 0 10px;
+    font-size: 18px;
+    
+}
+
+.nav_link > a {
+    text-decoration: none;
+    color: rgb(93, 90, 90);
+}
+
+.nav_link > a:hover {
+    text-decoration: underline;
+}
+
+.img_link {
+    
+   background-image: url("habib.jpg");
+   background-size: cover;
+   padding:  15px;
+   border-radius: 20px;
+   margin: 0  10px;
+   margin-left: 10px;
+   margin-top: -5px;
+   cursor: pointer;
+
+}
+
+
+.form_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+.input_container > input {
+
+    position: relative;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    box-shadow: 0 0 20px rgba(119, 124, 128, 0.25);
+    border: 0.5 solid gray;
+    z-index: 100;
+    padding-left: 20px;
+
+}
+
+.input_container > input:focus {
+
+    border:  0.5 solid gray;;
+    outline: none;
+    
+}
+
+.btn_option {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 ;
+    margin-left: 150px;
+}
+
+.submit_btn > input {
+    width: 150px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 0 solid gray;
+    cursor: pointer;
+    
+}
+
+.submit_btn > input:hover {
+
+    border: 0.5px solid gray;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(234, 233, 233);
+
+}
+
+.footer_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f_link {
+
+    margin: 10px 20px;
+}
+
+.f_link > a {
+    text-decoration: none;
+    color: rgb(43, 38, 38);
+    font-size: 15px;
+
+}
+
+.f_link > a:hover {
+    text-decoration: underline;
+}
+
+.left_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    background-color: rgb(73, 71, 71);
+}
+
+.nationality {
+
+    margin-left: 20px;
+    font-size: 20px;
+   color: rgb(43, 38, 38);
+}
+
+.input-icon {
+    background: url("icone_s.png") no-repeat 8px left;
+}
+
+
+.logo > img {
+    
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.advanced_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_avance > img {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text_brute > p {
+    color: red;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: lighter;
+}
+
+.hr {
+    background-color: rgb(231, 229, 229);
+}
+
+.advanced_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p1 {
+    font-size: 22px;
+    width: 200px;
+}
+
+.p2 {
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.advanced_container {
+
+    width: 80%;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.label >  input {
+
+    width: 500px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: none;
+    border: 0.5 solid gray;
+
+}
+
+.label >  input:focus {
+
+    border: 1px solid rgb(115, 115, 239);
+    outline: none;
+
+}
+
+.mage1 {
+    margin-left: 105px;
+}
+
+.mage2 {
+    margin-left: 10px;
+}
+
+.mage3 {
+    margin-left: 90px;
+}
+
+.label {
+
+    margin: 10px 0;
+}
+
+.advanced_search {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+.advanced_search > input {
+
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
