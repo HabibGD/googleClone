@@ -240,3 +240,71 @@ hr {
     border-radius: 5px;
 }
 
+@media(max-width: 700px) {
+
+    .logo > img {
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .input_container > input {
+        width: 350px;
+        height: 30px;
+        margin-left: 10px;
+
+    }
+
+    .btn_option {
+        margin: 30px 0 ;
+        margin-left: 70px;
+    }
+
+    .header {
+        justify-content: end;
+        margin: 20px 20px;
+    }
+
+    .nav_link {
+        padding: 0 10px;
+        font-size: 16px;
+    
+    }
+
+    .submit_btn > input {
+        width: 100px;
+        height: 30px;
+        margin: 0 10px;
+        border-radius: 10px;
+    
+}
+}
+
+
+@media (max-width: 1005px) {
+   
+    .label >  input {
+
+        width: 400px;
+        height: 20px;
+        margin-top: 5px;
+
+    }
+
+    .mage1 {
+        margin-left: 0;
+    }
+
+    .mage2 {
+        margin-left: 0;
+    }
+
+    .mage3 {
+        margin-left: 0;
+    }
+    .advanced_search > input {
+
+        margin-right: 60px;
+    }
+
+}
+
